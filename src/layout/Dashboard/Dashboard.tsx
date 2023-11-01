@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-import AddUserCount from "../../components/AddUserCount/AddUserCount";
-import EmployeeNames from "../../components/EmployeeNames/EmployeeNames";
+import AddEmployeeForm from "../../components/AddEmployeeForm/AddEmployeeForm";
+import AddEmployeeFormUseReducer from "../../components/AddEmployeeForm/AddEmployeeFormUseReducer";
 
 const MainWrapper = styled.main`
   min-height: calc(100% - 10rem);
@@ -13,8 +13,12 @@ const Dashboard = () => {
     <>
       <Header />
       <MainWrapper>
-        <AddUserCount />
-        <EmployeeNames />
+        {/* <AddUserCount /> */}
+        {/* <EmployeeNames /> */}
+        {/* <AddEmployeeForm /> */}
+        <AddEmployeeFormUseReducer />
+        {/* <HocAdminEmployee /> */}
+        {/* <HocUserEmployee /> */}
       </MainWrapper>
       <Footer />
     </>
